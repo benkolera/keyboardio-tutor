@@ -1,0 +1,96 @@
+$lighten: 17%;
+
+$highcolor1: #fea3aa;
+$lowcolor1: lighten( $highcolor1, $lighten);
+$highcolor2: #f8b88b;
+$lowcolor2: lighten( $highcolor2, $lighten);
+$highcolor3: #faf884;
+$lowcolor3: lighten( $highcolor3, $lighten);
+$highcolor4: #baed91;
+$lowcolor4: lighten( $highcolor4, 20%);
+$highcolor5: #b2cefe;
+$lowcolor5: lighten( $highcolor5, 12%);
+$highcolor6: #f2a2e8; 
+$lowcolor6: lighten( $highcolor6, $lighten);
+
+
+html, body, #app {
+    height: 100%;
+}
+
+.coords {
+    font-size: 2em;
+    width: 20em;
+}
+
+.typing-area {
+    font-size: 2em;
+    text-align: center;
+    .werd-done {
+        color: green;
+    }
+}
+
+.container {
+    height: 90%;
+    svg {
+        height: 100%;
+        width: 100%;
+        .key {
+            stroke: #666;
+            fill: white;
+
+            &.finger1 {
+                fill: $lowcolor1;
+                &.highlight {
+                    stroke: black;
+                    fill: $highcolor1;
+                }
+            }
+            &.finger2 {
+                fill: $lowcolor2;
+                &.highlight {
+                    stroke: black;
+                    fill: $highcolor2;
+                }
+            }
+            &.finger3 {
+                fill: $lowcolor3;
+                &.highlight {
+                    stroke: black;
+                    fill: $highcolor3;
+                }
+            }
+            &.finger4 {
+                fill: $lowcolor4;
+                &.highlight {
+                    stroke: black;
+                    fill: $highcolor4;
+                }
+            }
+            &.finger5 {
+                fill: $lowcolor5;
+                &.highlight {
+                    stroke: black;
+                    fill: $highcolor5;
+                }
+            }
+            &.finger6 {
+                fill: $lowcolor6;
+                &.highlight {
+                    stroke: black;
+                    fill: $highcolor6;
+                }
+            }
+        }
+        .legend-group {
+            font-family: 'Courier New', Courier, monospace;
+            .standard {
+                font-size: 7em;
+            }
+            .shift {
+                font-size: 6em;
+            }
+        }
+    }
+}
