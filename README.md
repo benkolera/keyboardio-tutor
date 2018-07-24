@@ -1,6 +1,6 @@
 # Keyboard.io / Model 01 Typing Tutor
 
-This is a typing tutor for the qgmlwb layout. [See http://mkweb.bcgsc.ca/carpalx/?full_optimization] and [https://geekhack.org/index.php?topic=22183.0]
+This is a typing tutor for the qgmlwb layout. See http://mkweb.bcgsc.ca/carpalx/?full_optimization and https://geekhack.org/index.php?topic=22183.0
 
 It is deployed at http://tutor01.benkolera.com if you want to see it in action.
 
